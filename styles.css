@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column; /* Stack header and search engines vertically */
+}
+
+/* Center the search engines container */
+.search-engines {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Style the header */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style each search engine box */
+.search-engine {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+/* Hover effect on the search engine box */
+.search-engine:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+}
+
+/* Style the search engine logo */
+.search-engine img {
+    width: 500px; /* Make the logo larger */
+    height: 200px; /* Make the logo larger */
+    display: block;
+    margin: 0 auto 20px; /* Add more space between logo and input field */
+}
+
+/* Style the search input field */
+.search-engine input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+/* Style the "Search" button */
+.search-engine button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Add more space between button and input field */
+}
+
+/* Add hover effect to the button */
+.search-engine button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
