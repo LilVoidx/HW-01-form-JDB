@@ -1,8 +1,8 @@
-/* CSS Reset */
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Add box-sizing property for better layout */
+    box-sizing: border-box;
 }
 
 /* Body Styles */
@@ -17,10 +17,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    font-family: "Poppins", sans-serif; /* Set the font family for the entire page */
+    font-family: "Poppins", sans-serif;
 }
 
-/* Form Container Styles */
+
 .inFormBackground {
     margin: 0 2rem;
 }
@@ -33,15 +33,15 @@ body {
     position: relative;
 }
 
-/* Form Styles */
+
 .inRegistrationForm form {
     top: 50%;
     left: 50%;
     width: 16rem;
-    height: auto; /* Allow the form height to adjust based on content */
+    height: auto;
     max-width: 320px;
     position: absolute;
-    padding: 20px; /* Adjust padding for better fit */
+    padding: 20px;
     border-radius: 10px;
     backdrop-filter: blur(5px);
     transform: translate(-50%, -50%);
@@ -50,30 +50,30 @@ body {
     background-color: rgba(255, 255, 255, 0.13);
 }
 
-/* Title Styles */
+
 .title {
-    font-size: 24px; /* Reduce font size for better fit */
+    font-size: 24px;
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 20px; /* Adjust margin for spacing */
+    margin-bottom: 20px;
 }
 
-/* Input Group Styles */
+
 .inputGroup label {
     display: block;
-    margin-top: 20px; /* Adjust margin for spacing */
-    font-size: 14px; /* Reduce font size for better fit */
+    margin-top: 20px;
+    font-size: 14px;
     font-weight: 500;
 }
 
 .inputGroup input {
-    width: 100%; /* Use 100% width for better fit */
-    height: 40px; /* Adjust height for better fit */
+    width: 100%;
+    height: 40px;
     display: block;
-    padding: 8px; /* Adjust padding for better fit */
-    margin-top: 6px; /* Adjust margin for spacing */
-    font-size: 12px; /* Reduce font size for better fit */
+    padding: 8px;
+    margin-top: 6px;
+    font-size: 12px;
     font-weight: 300;
     border-radius: 3px;
     background-color: rgba(255, 255, 255, 0.07);
@@ -83,14 +83,13 @@ body {
     color: #e5e5e5;
 }
 
-/* Submit Button Styles */
 .submitForm {
     width: 100%;
     z-index: 1;
-    margin-top: 20px; /* Adjust margin for spacing */
+    margin-top: 20px;
     color: #080710;
-    padding: 12px; /* Adjust padding for better fit */
-    font-size: 16px; /* Reduce font size for better fit */
+    padding: 12px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     overflow: hidden;
@@ -121,9 +120,9 @@ body {
     left: 0;
 }
 
-/* Social Login Styles */
+
 .social {
-    margin-top: 20px; /* Adjust margin for spacing */
+    margin-top: 20px;
     display: flex;
 }
 
